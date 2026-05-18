@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: fastapi-demo:1.0
+        image: fastapi-demo:2.0
         imagePullPolicy: Never  # Use local image in WSL
         ports:
         - containerPort: 8000

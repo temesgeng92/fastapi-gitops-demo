@@ -12,3 +12,7 @@ def read_root():
 @app.get("/health")
 def health():
     return {"status": "healthy"}
+
+@app.get("/new-endpoint")
+def new_endpoint():
+    return {"message": "This is new!"}
